@@ -10,14 +10,10 @@ h1{
  h1, h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
- p{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
- }
 
  #banner, banner{
-    background-color: rgb(255, 225, 0);
     padding-bottom: 1px;
-    text-align: center;
+    padding-top: 5px;
  }
 
  #banner p, banner p{
@@ -38,12 +34,6 @@ h1{
     padding: 10px;
  }
 
- #nav a:hover, nav a:hover{
-          background-color: dimgray;
-          color: beige;
-          
- }
-
  #footer, footer{
     background-color: rgb(65, 238, 254);
     min-height: 30px;
@@ -54,10 +44,6 @@ h1{
     text-decoration: solid;
  }
 
- #main, main{
-    width: 80%;
-    margin: 0 auto;
- }
 
  .Different text{
     font-size: large;
