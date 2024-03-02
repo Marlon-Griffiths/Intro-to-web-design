@@ -1,0 +1,70 @@
+h1{
+    color: red;
+    text-decoration: double;
+    text-align: center;
+ }
+ h2{
+    color: darkgoldenrod;
+    text-decoration: underline;
+ }
+ h1, h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+
+ #banner, banner{
+    background-color: rgb(255, 225, 0);
+    padding-bottom: 1px;
+    text-align: center;
+ }
+
+ #banner p, banner p{
+    margin: 0;
+ }
+
+ #nav, nav{
+    background-color: rgb(234, 132, 14);
+    color: rgb(52, 65, 252);
+    padding: 10px;
+    text-align: center;
+ }
+ #nav a, nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: larger;
+    margin-right: 8px;
+    padding: 10px;
+ }
+
+ #nav a:hover, nav a:hover{
+          background-color: dimgray;
+          color: beige;
+          
+ }
+
+ #footer, footer{
+    background-color: rgb(65, 238, 254);
+    min-height: 30px;
+    text-align: center;
+ }
+ #footer a, footer a{
+    color: aliceblue;
+    text-decoration: solid;
+ }
+
+ #main, main{
+    width: 80%;
+    margin: 0 auto;
+ }
+
+ .Different text{
+    font-size: large;
+    font-family: serif;
+    font-weight: bold;
+ }
+
+ .weird color{
+    color: lightcoral;
+ }
