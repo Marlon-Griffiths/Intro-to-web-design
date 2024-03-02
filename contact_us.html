@@ -50,9 +50,9 @@
       </tr>
     </table>
     <h2>General Inquiries</h2>
-    <form action="confirmation.html">
-      <label for="Fullname">Name: *</label><br/>
-      <input required type="text" id="Fullname" name="Fullname"/>
+    <form action="confirmation.html" id="contactForm">
+      <label for="fullname">Name: *</label><br/>
+      <input required type="text" id="fullname" name="fullname"/>
       <br/><br/>
       <label for="Email adress">Email adress: *</label><br/>
       <input required type="email" id="email" name="email"/>
@@ -63,8 +63,9 @@
       <br/><br/>
       <label>State your Inquiry *</label><br/>
       <textarea required cols="40" rows="20" maxlength="150" id="Inquiry" name="Inquiry"></textarea>
-      <br/><br/>
+      <br/>
       <input type="submit"/>
+      <button type="button" onclick="ClearForm()">Clear</button>
     </form>
   </main>
 
@@ -74,5 +75,6 @@
     <a href="https://www.ebay.com"> ebay</a>
   </footer>
    
+  <script src="scripts/site.js"></script>
 </body>
 </html>
